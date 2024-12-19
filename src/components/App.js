@@ -13,7 +13,7 @@ const App = () => {
       });
   
       useEffect(() => {
-        setWeatherData({ temperature: 25, conditions: "Sunny" });
+        setWeatherData({ temperature: "25", conditions: "Sunny" });
       }, []);
       <h1>Weather App</h1>
       <WeatherDisplay weather={weatherData} />
