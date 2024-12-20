@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import './../styles/App.css';
 
 const App = () => {
-    const [weatherData, setWeatherData] = useState({
+    const [weather, setWeatherData] = useState({
       temperature: 25,
       conditions: "Sunny"
     });
