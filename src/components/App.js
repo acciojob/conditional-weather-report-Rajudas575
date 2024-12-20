@@ -14,13 +14,13 @@ const App = () => {
     <div>
         {/* Do not remove the main div */}
     
-      <div style={styles.container}>
-      <h1 style={styles.header}>Weather App</h1>
-      <div style={styles.weatherCard}>
-        <h2 style={{ ...styles.temperature, color: temperatureColor }}>
+      <div className="container"}>
+      <h1 className="header">Weather App</h1>
+      <div className="weatherCard"}>
+        <h2 className="temperature">
           {weather.temperature}°C
         </h2>
-        <p style={styles.conditions}>{weather.conditions}</p>
+        <p className="conditions">{weather.conditions}</p>
       </div>
     </div>
     </div>
