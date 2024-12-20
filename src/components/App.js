@@ -16,7 +16,7 @@ const App = () => {
     
       <div className="container">
       <h1 className="header">Weather App</h1>
-      <div className="weatherCard"}>
+      <div className="weatherCard">
         <h2 className="temperature">
           {weather.temperature}°C
         </h2>
