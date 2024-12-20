@@ -21,7 +21,6 @@ const App = () => {
               {temperature}°C
             </span>
           </p>
-          <p>Conditions: {conditions}</p>
         </div>
     </div>
   )
