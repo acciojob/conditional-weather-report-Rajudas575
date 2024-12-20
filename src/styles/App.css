@@ -1,32 +1,12 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
 
+.weather-display {
+  font-size: 1.5em;
+}
 
-  .container {
-    fontFamily: 'Arial, sans-serif';
-    display: 'flex';
-    flexDirection: 'column';
-    alignItems: 'center';
-    justifyContent: 'center';
-    height: '100vh';
-    backgroundColor: '#f0f8ff';
-    color: '#333';
-  }
- .header {
-    fontSize: '2.5em';
-    marginBottom: '20px';
-  }
-  .weatherCard {
-    backgroundColor: '#fff';
-    padding: '20px';
-    borderRadius: '10px';
-    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)';
-    textAlign: 'center';
-  }
-  .temperature {
-    fontSize: '3em';
-    margin: '10px 0';
-  }
-  .conditions {
-    fontSize: '1.5em';
-    marginTop: '10px';
-  }
-
+.weather-display p {
+  margin: 10px 0;
+}
