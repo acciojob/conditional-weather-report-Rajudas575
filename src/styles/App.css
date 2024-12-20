@@ -1,12 +1,24 @@
+
 .App {
+  font-family: Arial, sans-serif;
   text-align: center;
+  margin-top: 50px;
+}
+
+.weather-container {
   padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: 20px;
 }
 
-.weather-display {
+h1 {
+  font-size: 2.5em;
+  color: #333;
+}
+
+p {
   font-size: 1.5em;
-}
-
-.weather-display p {
   margin: 10px 0;
 }
