@@ -16,7 +16,6 @@ const App = () => {
         {/* Do not remove the main div */}
     
         <div className="App">
-          <h1>Current Weather</h1>
           <div className="weather-container">
             <p><span style={{ color: getTemperatureColor(weather.temperature) }}>
               Temperature: {weather.temperature}°C
