@@ -1,6 +1,6 @@
 
 
-  container: {
+  container {
     fontFamily: 'Arial, sans-serif';
     display: 'flex';
     flexDirection: 'column';
@@ -10,22 +10,22 @@
     backgroundColor: '#f0f8ff';
     color: '#333';
   }
-  header: {
+  header {
     fontSize: '2.5em';
     marginBottom: '20px';
   }
-  weatherCard: {
+  weatherCard {
     backgroundColor: '#fff';
     padding: '20px';
     borderRadius: '10px';
     boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)';
     textAlign: 'center';
   }
-  temperature: {
+  temperature {
     fontSize: '3em';
     margin: '10px 0';
   }
-  conditions: {
+  conditions {
     fontSize: '1.5em';
     marginTop: '10px';
   }
