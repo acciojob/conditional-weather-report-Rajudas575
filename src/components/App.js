@@ -14,15 +14,16 @@ const App = () => {
     <div>
         {/* Do not remove the main div */}
     
-      <div className="container">
-      <h1 className="header">Weather App</h1>
-      <div className="weatherCard">
-        <h2 className="temperature">
-          {weather.temperature}°C
-        </h2>
-        <p className="conditions">{weather.conditions}</p>
-      </div>
-    </div>
+        <div className="weather-display">
+          <h2>Current Weather</h2>
+          <p>
+            Temperature:{" "}
+            <span style={{ color: temperatureColor }}>
+              {temperature}°C
+            </span>
+          </p>
+          <p>Conditions: {conditions}</p>
+        </div>
     </div>
   )
 }
