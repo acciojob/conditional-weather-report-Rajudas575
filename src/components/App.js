@@ -17,7 +17,6 @@ const App = () => {
         <div className="weather-display">
           <h2>Current Weather</h2>
           <p>
-            Temperature:{" "}
             <span style={{ color: temperatureColor }}>
               {temperature}°C
             </span>
