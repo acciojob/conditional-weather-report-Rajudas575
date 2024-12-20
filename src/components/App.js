@@ -14,7 +14,7 @@ const App = () => {
     <div>
         {/* Do not remove the main div */}
     
-      <div className="container"}>
+      <div className="container">
       <h1 className="header">Weather App</h1>
       <div className="weatherCard"}>
         <h2 className="temperature">
