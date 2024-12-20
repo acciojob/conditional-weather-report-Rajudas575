@@ -9,7 +9,7 @@ const App = () => {
     });
 
     const temperatureColor = weather.temperature > 20 ? 'red' : 'blue';
-    
+    const { temperature, conditions } = weather;
   return (
     <div>
         {/* Do not remove the main div */}
